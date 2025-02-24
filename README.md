@@ -46,7 +46,7 @@ Este repositório está licenciado sob a MIT License, permitindo uso e modifica�
 
 6. Contato
 
-Caso tenha dúvidas ou sugestões, entre em contato pelo e-mail: seu_email@exemplo.com ou abra uma Issue neste repositório.
+Caso tenha dúvidas ou sugestões, entre em contato pelo e-mail: ordones.antonio@aluno.unb.br ou abra uma Issue neste repositório.
 
 7. Publicação no Zenodo
 
