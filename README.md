@@ -56,8 +56,4 @@ Este repositório está vinculado ao Zenodo, o que permite gerar um DOI permanen
 
 Se você utilizar os dados ou códigos deste repositório, por favor cite da seguinte forma:
 
-Autor(es). (Ano). Título do estudo. GitHub. Disponível em: https://github.com/seu_usuario/Projeto_Seguranca_Publica
-
-Após a indexação no Zenodo:
-
-Autor(es). (Ano). Título do estudo. Zenodo. DOI: [DOI gerado]
+Ordones Neto, A., & Rodrigues, F. B. S. (2025). Código R para Análise da Percepção de Insegurança no Distrito Federal (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.14917404
