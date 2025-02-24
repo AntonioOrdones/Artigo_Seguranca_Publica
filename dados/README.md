@@ -6,6 +6,16 @@ Esta pasta contém os arquivos de dados processados para análise do estudo sobr
 ## 📄 Arquivo disponível
 - **`Dados.csv`** → Contém os dados tratados utilizados na regressão e análises estatísticas.
 
+## 🌍 Dados Originais
+Os dados tratados foram obtidos a partir das seguintes fontes públicas:
+
+- 🔗 [Secretaria de Segurança Pública do DF](https://www.ssp.df.gov.br/dados-por-regiao-administrativa/.)
+- 🔗 [Pesquisa ObservaDF](https://observadf.unb.br/dados/)
+- 🔗 [IPEDF - Pesquisa Distrital por Amostra de Domicílios](https://www.ipe.df.gov.br/pdad-2021-3/)
+- 🔗 [IPEDF - Pesquisa de Emprego e Desemprego no Distrito Federal](https://www.ipe.df.gov.br/wp-content/uploads/2018/02/Boletim-PED-DF_Maio_2023.pdf)
+- 🔗 [IBGE - Censo Brasileiro de 2022](https://www.ibge.gov.br/estatisticas/sociais/trabalho/22827-censo-demografico-2022.html)
+- 🔗 [FBSP - 17o Anuário Brasileiro de Segurança Pública](https://forumseguranca.org.br/wp-content/uploads/2023/07/anuario-2023.pdf)
+
 ## 🏷️ Estrutura do arquivo `Dados.csv`
 O arquivo `Dados.csv` contém as seguintes colunas:
 
