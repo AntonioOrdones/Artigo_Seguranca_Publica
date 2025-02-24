@@ -12,9 +12,9 @@ O arquivo `Dados.csv` contém as seguintes colunas:
 | Coluna         | Descrição |
 |---------------|-----------|
 | `RA`          | Região Administrativa do Distrito Federal |
-| `CCP`         | Crimes contra a pessoa por mil habitantes |
+| `CCP`         | Crimes contra o patrimônio |
 | `INTERNET`    | Percentual da população com acesso à internet |
-| `RENDA`       | Renda média mensal da população (em reais) |
+| `RENDA`       | Renda média mensal per capita da população (em reais) |
 | `INSEGURANÇA` | Índice de percepção de insegurança (escala de 0 a 1) |
 
 ## 🔍 Exemplo de Dados
