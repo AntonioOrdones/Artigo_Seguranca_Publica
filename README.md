@@ -16,10 +16,11 @@ O repositório está organizado da seguinte forma:
 │-- /Documentos              # Documentos do modelo
 │   ├── diagnostico_modelo.txt
 │   ├── tabela_regresão.htlm
+│   ├── referencias_bibliograficas.txt  # Referências utilizadas no estudo
+│   ├── metodologia.pdf
 │-- README.md
-│-- metodologia.pdf
 │-- LICENSE                 # Licença de uso
-│-- referencias_bibliograficas.txt  # Referências utilizadas no estudo
+
 
 3. Requisitos para Execução do Código
 
