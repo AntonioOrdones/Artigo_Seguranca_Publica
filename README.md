@@ -13,6 +13,9 @@ O repositório está organizado da seguinte forma:
 │   ├── dados_tratados.csv
 │-- /Script                # Código em R para análise dos dados
 │   ├── analise_regressao.R
+│-- /Documentos              # Documentos do modelo
+│   ├── diagnostico_modelo.txt
+│   ├── tabela_regresão.htlm
 │-- README.md
 │-- metodologia.pdf
 │-- LICENSE                 # Licença de uso
