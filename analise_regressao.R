@@ -1,3 +1,8 @@
+# 📌 Script para Diagnóstico do Modelo de Regressão
+# Autor: ORDONES NETO, Antonio; RODRIGUES, Frederico Bertholini Santos.
+# Data: 24 fev. 2025
+# Objetivo: Gerar diagnósticos estatísticos e gráficos do modelo de regressão
+
 # Carregar pacotes necessarios
 library(car)
 library(ggplot2)
