@@ -10,8 +10,8 @@ O repositório está organizado da seguinte forma:
 
 /Projeto_Seguranca_Publica
 │-- /dados                   # Dados brutos e tratados
-│   ├── Dados.csv
-│-- /scripts                # Código em R para análise dos dados
+│   ├── dados_tratados.csv
+│-- /script                # Código em R para análise dos dados
 │   ├── analise_regressao.R
 │-- /docs                   # Documentação do projeto
 │   ├── README.md
