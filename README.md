@@ -18,6 +18,7 @@ O repositório está organizado da seguinte forma:
 │   ├── tabela_regresão.htlm
 │   ├── referencias_bibliograficas.txt  # Referências utilizadas no estudo
 │   ├── metodologia.pdf
+│   ├── Gráficos.png
 │-- README.md
 │-- LICENSE                 # Licença de uso
 
