@@ -38,7 +38,9 @@ O arquivo `Dados.csv` contém as seguintes colunas:
 Os dados podem ser carregados no R da seguinte forma:
 
 ```r
-dados <- read.csv("data/processed/Dados.csv", sep = ";", header = TRUE, stringsAsFactors = FALSE)
+# 📥 Solicitar ao usuário que faça o upload do arquivo
+cat("Selecione o arquivo CSV contendo os dados tratados\n")
+arquivo <- file.choose()  # Abre uma janela para seleção do arquivo
 
 ⚠️ Observações
 
