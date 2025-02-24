@@ -9,9 +9,8 @@ Este repositório contém o código R e os dados utilizados no estudo sobre perc
 O repositório está organizado da seguinte forma:
 
 /Projeto_Seguranca_Publica
-│-- /data                   # Dados brutos e tratados
-│   ├── dados_originais.xlsx
-│   ├── dados_tratados.csv
+│-- /Dados                   # Dados brutos e tratados
+│   ├── Dados.csv
 │-- /scripts                # Códigos em R para análise dos dados
 │   ├── analise_regressao.R
 │   ├── diagnosticos_modelo.R
