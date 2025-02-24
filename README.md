@@ -13,11 +13,10 @@ O repositório está organizado da seguinte forma:
 │   ├── dados_tratados.csv
 │-- /Script                # Código em R para análise dos dados
 │   ├── analise_regressao.R
-│-- /Documentos                   # Documentação do projeto
-│   ├── README.md
-│   ├── metodologia.pdf
+│-- README.md
+│-- metodologia.pdf
 │-- LICENSE                 # Licença de uso
-│-- referencia_bibliografica.txt  # Referências utilizadas no estudo
+│-- referencias_bibliograficas.txt  # Referências utilizadas no estudo
 
 3. Requisitos para Execução do Código
 
