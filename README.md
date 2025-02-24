@@ -8,7 +8,7 @@ Este repositório contém o código R e os dados utilizados no estudo sobre perc
 
 O repositório está organizado da seguinte forma:
 
-/Projeto_Seguranca_Publica
+/Artigo_Seguranca_Publica
 │-- /Dados                   # Dados brutos e tratados
 │   ├── dados_tratados.csv
 │-- /Script                # Código em R para análise dos dados
@@ -30,11 +30,11 @@ Além disso, é recomendado utilizar a versão mais recente do R e do RStudio pa
 
 Clone o repositório para sua máquina:
 
-git clone https://github.com/seu_usuario/Projeto_Seguranca_Publica.git
+git clone https://github.com/seu_usuario/Artigo_Seguranca_Publica.git
 
 Acesse a pasta do projeto:
 
-cd Projeto_Seguranca_Publica
+cd Artigo_Seguranca_Publica
 
 Abra o arquivo analise_regressao.R no RStudio e execute as linhas de código para processar os dados e gerar os resultados.
 
