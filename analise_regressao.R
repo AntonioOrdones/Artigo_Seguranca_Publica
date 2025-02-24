@@ -119,3 +119,24 @@ ggarrange(
     labs(title = "Coeficientes Estimados", x = "Variaveis", y = "Coeficiente"),
   ncol = 2
 )
+
+# 📥 Salvar relatório do diagnóstico
+sink("diagnostico_modelo.txt")
+cat("### 📊 Diagnóstico do Modelo de Regressão ###\n\n")
+print(summary(modelo))
+print("\n---\n")
+print("Teste de Colinearidade (VIF):")
+print(vif(modelo))
+print("\n---\n")
+print("Teste de Normalidade (Shapiro-Wilk):")
+print(shapiro.test(resid(modelo)))
+print("\n---\n")
+print("Teste de Heterocedasticidade (Breusch-Pagan):")
+print(bptest(modelo))
+print("\n---\n")
+print("Teste de Autocorrelação dos Resíduos (Durbin-Watson):")
+print(durbinWatsonTest(modelo))
+print("\n---\n")
+print("Teste de Especificação do Modelo (RESET):")
+print(resettest(modelo, power = 2, type = "fitted"))
+sink()
