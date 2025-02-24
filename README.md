@@ -33,7 +33,7 @@ Além disso, é recomendado utilizar a versão mais recente do R e do RStudio pa
 
 Clone o repositório para sua máquina:
 
-git clone https://github.com/seu_usuario/Artigo_Seguranca_Publica.git
+git clone (https://github.com/AntonioOrdones/Artigo_Seguranca_Publica)
 
 Acesse a pasta do projeto:
 
