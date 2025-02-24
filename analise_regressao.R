@@ -13,9 +13,20 @@ library(ggpubr)
 library(lmtest)
 library(nortest)
 library(olsrr)
+library(readr)  # Para melhor compatibilidade na leitura do CSV
 
-# Definir os dados (substituir "Dados" pelo seu dataframe real)
-dados <- Dados
+# 📥 Solicitar ao usuário que faça o upload do arquivo
+cat("Selecione o arquivo CSV contendo os dados tratados\n")
+arquivo <- file.choose()  # Abre uma janela para seleção do arquivo
+
+# 🔄 Carregar os dados sem especificar caminho fixo
+dados <- read_csv2(arquivo)  # Usa `read_csv2()` porque os dados têm separador `;`
+
+# 🔍 Ajustar tipos de dados, convertendo vírgulas para pontos (se necessário)
+dados$RENDA <- as.numeric(gsub(",", ".", dados$RENDA))
+dados$INTERNET <- as.numeric(gsub(",", ".", dados$INTERNET))
+dados$CCP <- as.numeric(gsub(",", ".", dados$CCP))
+dados$INSEGURANÇA <- as.numeric(gsub(",", ".", dados$INSEGURANÇA))
 
 # Aplicar transformacoes nos dados
 dados$log_RENDA <- log(dados$RENDA)
